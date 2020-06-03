@@ -37,6 +37,11 @@ module.exports=require('./webpack.base')({
                 use:["style-loader","css-loader","postcss-loader"]
             },
             {
+                test:/\.s[ac]ss$/i,
+                exclude:/node_modules/,
+                use:["style-loader","css-loader","sass-loader"]
+            },
+            {
                 test:/\.css$/,
                 include:/node_modules/,
                 use:["style-loader","css-loader"]

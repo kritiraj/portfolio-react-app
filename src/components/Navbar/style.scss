@@ -1,0 +1,34 @@
+.navbar{
+    padding: 1.25rem;
+    background-color: #fff;
+    position: relative;
+    box-shadow: none;
+    z-index: auto;
+}
+.navbar.container{
+    flex-grow: 1;
+    margin: 0 auto;
+    position: relative;
+    width: auto;
+}
+.navbar.is-transparent{
+    background-color: white;
+}
+.navbar-brand{
+    min-height: 3rem;
+    flex-shrink: 0;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+}
+.navbar-img{
+    height: 5rem;
+    width: 5rem;
+}
+.navar-menu{
+    text-align: center;
+}
+.navbar-end{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+}
